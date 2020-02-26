@@ -1,0 +1,37 @@
+### -----
+### These are some basic git ignore settings
+### -----
+
+### log files 
+*.log
+
+### gitconfig file
+*.gitconfig
+
+### compiled python files
+*.pyc
+
+### vi/vim/neovim swap files
+*.swp
+
+### ctags output file
+tags
+
+### virtualenvs folder
+virtualenvs
+
+### DB migrations folder
+migrations
+
+### vagrant folder
+.vagrant
+
+### crazy temp file news i've been known to use
+*.new
+*.orig
+*.old
+*.old.*
+*.save
+*.save.*
+
+
