@@ -7,7 +7,9 @@
 ### -----
 
 
-echo "Level 0 >>> terminal/console applications"
+echo " "
+echo " >>>>> Level 0 >>> terminal/console applications"
+echo " "
 
 echo "Install zsh + extras apps ..."
 pacman -S --noconfirm zsh zsh-autosuggestions zsh-completions zsh-lovers \

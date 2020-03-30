@@ -6,7 +6,11 @@
 ### Calling this file will cascade to fall the levels below it until it hits the floor.
 ### ----- 
 
-/bin/bash level-1-archlinux.sh
+/bin/sh ./level_1_archlinux.sh
+
+echo " "
+echo " >>>>> Level 2 >>> Organization, editors, converters, media and utilities"
+echo " "
 
 
 echo "Install productvity apps ..."

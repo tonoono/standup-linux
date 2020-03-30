@@ -6,9 +6,11 @@
 ### Calling this file will cascade to fall the levels below it until it hits the floor.
 ### ----- 
 
-/bin/bash level-0-archlinux.sh
+/bin/sh ./level_0_archlinux.sh
 
-echo "Level 1 >>> Xorg, i3-gaps and base X applications"
+echo " "
+echo " >>>>> Level 1 >>> Xorg, i3-gaps and base X applications"
+echo " "
 
 echo "Install X environment ..."
 pacman -S --noconfirm xorg-server xorg-xinit xclip xsel
