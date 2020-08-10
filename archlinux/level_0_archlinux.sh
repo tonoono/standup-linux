@@ -14,8 +14,8 @@ echo " "
 if [ "$#" -eq 0 ]; then
   echo "Install zsh + extras apps ..."
   pacman -S --noconfirm zsh zsh-autosuggestions zsh-completions zsh-lovers \
-    zsh-syntax-highlighting zsh-theme-powerlevel9k powerline awesome-terminal-fonts \
-    powerline-fonts powerline-vim
+    zsh-syntax-highlighting zsh-theme-powerlevel10k powerline awesome-terminal-fonts \
+    powerline-fonts powerline-vim ttf-meslo-nerd-font-powerlevel10k
 
   echo "Install terminal apps ..."
   pacman -S --noconfirm neovim vim neofetch tmux ranger atool elinks ffmpegthumbnailer \
@@ -32,8 +32,8 @@ else
     if [ "$1" = "remove" ]; then
       echo "Install zsh + extras apps ..."
       pacman -S --noconfirm zsh zsh-autosuggestions zsh-completions zsh-lovers \
-        zsh-syntax-highlighting zsh-theme-powerlevel9k powerline awesome-terminal-fonts \
-        powerline-fonts powerline-vim
+        zsh-syntax-highlighting zsh-theme-powerlevel10k powerline awesome-terminal-fonts \
+        powerline-fonts powerline-vim ttf-meslo-nerd-font-powerlevel10k
 
       echo "Install terminal apps ..."
       pacman -S --noconfirm neovim vim neofetch tmux ranger atool elinks ffmpegthumbnailer \
